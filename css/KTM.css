@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: PlaywriteITModerna;
+    src: url(../fonts/Playwrite_IT_Moderna/PlaywriteITModerna-VariableFont_wght.ttf);
+}
+#header .logo{
+    width: 100%;
+    margin: -4px auto;
+}
+#header img{
+    width: 100%;
+}
+#header .menu{
+    background-color: #024e24;
+    padding: 20px;
+}
+#header ul{
+    list-style-type: none;
+    text-align: left;
+}
+
+#header li{
+    display: inline-block;
+    font-size: 25px;
+    padding: 0 30px;
+}
+#header li a:hover{
+    color: #f6f6f7;
+}
+
+#header li a{
+    text-decoration: none;
+    color: #f58232;
+}
+
+#header .menuLeft{
+    display: inline-block;
+}
+
+#header .menuRight{
+    float: right;
+}
+#header .menuRight li{
+    padding: 0 10px;
+    color: #fff;
+}
+#header .menuRight a:hover{
+    
+background-color: #62c75c;
+    
+padding: 5px 10px;
+    
+color: #fff;
+    
+border-radius: 5px;
+}
+#header .menuRight .user-icon{
+    font-size: 20px;
+    color: #fff;
+}
+
+/* Content1 */
+#content_body{
+    margin: 30px 50px;
+}
+#content_body .content1 td{
+    width: 50%;
+}
+
+#content_body .content1 td img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.content1_right{
+    /* vertical-align: top; */
+    padding-left: 20px;
+}
+
+.content1_right h2 {
+    color: #f58232;
+    padding-bottom: 14px;
+    text-align: center;
+    font-size: 50px;
+}
+.content1_right p{
+    line-height: 30px;
+    text-align: justify;
+    font-size: 21px;
+    font-family: system-ui;
+}
+.content1_right .btnDetail{
+    background-color: #024e24;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 40%;
+    border-radius: 20px;
+    text-align: center;
+    word-spacing: 4px;
+}
+.content1_right .btnDetail a{
+    text-decoration: none;
+    color: #fff;
+}
+/* Content2 */
+.content2{
+    margin: 20px 0;
+}
+.content2 .title{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: #f58232;
+}
+
+.content2 td{
+    width: 33.333%;
+}
+.content2 table img{
+    width: 100%;
+    border-radius: 10px;
+}
+.content2 table td{
+    padding: 0 3px;
+}
+
+.content2 table h2{
+    font-size: 18px;
+    padding: 15px 0;
+    cursor: pointer;
+}
+.content2 table h2:hover{
+   color: #f58232;
+}
+.content2 table p{
+    line-height: 23px;
+}
+.content2 .btnDetail2{
+    background-color: #f58232;
+    width: 30%;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.content2 .btnDetail2 a{
+    text-decoration: none;
+    color: #ffffff;
+}
